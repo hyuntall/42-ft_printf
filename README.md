@@ -33,6 +33,19 @@ make
 
 5. `ft_printf()` 함수를 호출하여 원하는 형식의 출력을 수행할 수 있습니다. 서식 지정자와 옵션을 사용하여 출력을 제어할 수 있습니다.
 
+## 사용 예시
+```C
+#include "ft_printf.h"
+
+int main() {
+    ft_printf("Hello, %s!\n", "world");
+    ft_printf("The answer is %d.\n", 42);
+    return 0;
+}
+```
+
+
+
 ## 참고 사항
 
 - 42-ft_printf는 42 Seoul의 과정에서 요구되는 프로젝트로, 특정한 규칙과 제약 사항을 따르고 있습니다.
